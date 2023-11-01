@@ -1,4 +1,4 @@
-/*// 1. a) Write a constructor for the class Movie, which takes a String representing the title of the movie, 
+// 1. a) Write a constructor for the class Movie, which takes a String representing the title of the movie, 
 // a String representing the studio, and a String representing the rating as its arguments, and sets the 
 // respective class properties to these values.
 
@@ -120,7 +120,7 @@ class movie {
   console.log(a.salary);
 
 
-*/
+
 
 //4. Calculate the uber price 
 class price{
@@ -133,4 +133,5 @@ class price{
   var ret= 50*obj.distance+0.5*obj.time;// 50.Rs for 1Km and 0.5.Rs for 1minute for waiting charge
 console.log("Price", ret);
 
-
+//o/p:
+// Price 115
