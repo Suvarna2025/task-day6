@@ -72,7 +72,7 @@ class movie {
     return this.color;
   }
   
-  get toString(){
+  get tostring(){
     return '"Circle[radius = ${this.radius}, color = ${this.color}]"'
   }
   get areacircle(){
@@ -84,14 +84,26 @@ class movie {
   }
 
   var obj1 = new circle(1.0, "red");
-  console.log(obj1. radiuscircle);// get radius
-  obj.radiuscircle = 2.2
+  console.log(obj1.radiuscircle);// get radius
+  obj1.radiuscircle = 2.2
 
-  console.log(obj1. radiuscircle);//set radius
-  obj.radiuscircle = 2.4
+  console.log(obj1.radiuscircle);//set radius
+  obj1.radiuscircle = 2.4
 
-  
-  //3.Write a “person” class to hold all the details.
+  console.log(obj1.colorcircle);// get color
+  obj1.colorcircle = "blue"
+
+  console.log(obj1.tostring);// get string
+  obj1.tostring= 5.0
+
+  console.log(obj1.areacircle);
+  obj1.areacircle = 4.3
+
+  console.log(obj1.circumferencecircle);
+  obj1.circumferencecircle = 3.4
+
+
+ //3.Write a “person” class to hold all the details.
 
   class person{
     constructor(name, age, gender,salary) {
@@ -106,4 +118,9 @@ class movie {
   console.log(a.age);
   console.log(a.gender);
   console.log(a.salary);
+
+
+
+
+//4. Calculate the uber price 
 
