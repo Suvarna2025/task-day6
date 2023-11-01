@@ -50,6 +50,47 @@ class movie {
   console.log(film.studio);
   console.log(film.rating);
 
+
+  //2. Cirlce 
+
+
+  class circle{
+    constructor(radius,color){
+      this.radius=radius;
+      this.color=color;
+
+    }
+
+  get radiuscircle(){
+    return this.radius;
+  }
+
+  set radiuscircle(radius){
+    this.radius = radius;
+  }
+  get colorcircle(){
+    return this.color;
+  }
+  
+  get toString(){
+    return '"Circle[radius = ${this.radius}, color = ${this.color}]"'
+  }
+  get areacircle(){
+    return Math.PI * this.radius * this.radius;
+  }
+  get circumferencecircle(){
+    return 2* Math.PI * this.radius;
+  }
+  }
+
+  var obj1 = new circle(1.0, "red");
+  console.log(obj1. radiuscircle);// get radius
+  obj.radiuscircle = 2.2
+
+  console.log(obj1. radiuscircle);//set radius
+  obj.radiuscircle = 2.4
+
+  
   //3.Write a “person” class to hold all the details.
 
   class person{
